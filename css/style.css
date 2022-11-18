@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 98%;
+    max-width: 350px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 3px 3px 3px 3px slategrey;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+header .profile{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+
+}
+
+section{
+    width: 98%;
+    max-width: 350px;
+    height: 150px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 3px 3px 3px slategrey;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+section button{
+    width: 80px;
+    height: 70px;
+    background-image: url(../img/dash.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    width: 98%;
+    max-width: 350px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 10px 3px slategrey;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+
+}
+
+#das{
+    background-image: url(../img/dash.jpeg);
+}
+#kagiz{background-image: url(../img/kaqiz.jpeg);}
+#qayci{
+    background-image: url(../img/qayci.jpeg);
+}
+
+.secildi{
+    border: 5px solid red;
+}
